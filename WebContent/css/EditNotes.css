@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+
+
+.edit_form {
+	display : flex;
+	justify-content : center;
+	align-items : center;
+	padding : 20px;
+}
+
+.edit_form > form {
+	width: 30%;
+	padding: 30px;
+	background-color: black;
+	color: white;
+	margin-top: 80px;
+}
+
+label {
+	font-weight : bold;
+}
+
+.button_submit {
+	display : flex;
+	justify-content : center;
+	
+}
+
+.btn-primary{
+	background-color : orange;
+	border : none;
+	box-shadow : none;
+}
+
+.btn-primary:hover:active {
+	background-color : black;
+	border-color : black;
+}
+
+.btn-primary:focus {
+	background-color : black;
+	border-color : black;
+}

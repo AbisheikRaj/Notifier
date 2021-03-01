@@ -1,0 +1,80 @@
+@charset "ISO-8859-1";
+
+.form {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.form > form {
+  width: 30%;
+  padding: 30px;
+  background-color: black;
+  color: white;
+  margin-top : 100px;
+}
+
+.form > form > .head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form > form > .new_user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} 
+
+.new_user {
+	margin-top : 40px;
+}
+
+
+.new_user > button {
+  width: 100%;
+  background-color: orange;
+  border: none;
+  font-weight: bold;
+}
+
+.new_user > a {
+  margin-top: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+.alert.alert-danger {
+	margin-top : 20px;
+	padding : 20px;	
+	position : fixed;
+	top : 0;
+	width : 93%;
+	font-weight : bold;
+	font-size : 20px;
+	display : flex;
+	justify-content : center;
+	align-items : center;
+}
+
+.alert.alert-success {
+	margin-top : 20px;
+	padding : 20px;	
+	width : 93%;
+	font-weight : bold;
+	font-size : 20px;
+	display : flex;
+	justify-content : center;
+	align-items : center;
+}
+
+#email, #pass {
+	color : red;
+	font-weight : bold;	
+}
+

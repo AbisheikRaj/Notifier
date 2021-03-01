@@ -1,0 +1,63 @@
+@charset "ISO-8859-1";
+
+.form {
+	display : flex;
+	justify-content : center;
+	align-items : center;
+	width : 100%;
+	margin-top : 40px;
+	font-family: Arial, sans-serif;
+}
+
+.form > form {
+	width : 30%;
+	padding : 20px;
+	background-color : black;
+	color : white;
+}
+
+.form > form > .head {
+	display : flex;
+	justify-content : center;
+	align-items : center;
+}
+
+.form > form > .new_user {
+	display : flex;
+	justify-content : center;
+	align-items : center;
+	flex-direction : column;
+}
+
+.new_user > button {
+	width : 100%;
+	background-color : orange;
+	border : none;
+	font-weight : bold;
+	margin-top : 20px;
+}
+
+.new_user > a {
+	margin-top : 20px;
+	font-weight : bold;
+	color : white;
+}
+
+#fname, #lname, #email, #pass, #rpass, #country, #mobile {
+	color : red;
+}
+
+.alert.alert-danger {
+	margin-top : 20px;
+	padding : 20px;	
+	position : relative;
+	top : 0;
+	width : 93%;
+	font-weight : bold;
+	font-size : 20px;
+	display : flex;
+	justify-content : center;
+	align-items : center;
+}
+
+

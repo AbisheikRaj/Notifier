@@ -1,0 +1,51 @@
+@charset "ISO-8859-1";
+
+.form_section {
+	display : flex;
+	justify-content : center;
+	align-items : center;
+	padding : 20px;
+}
+
+.form_section > form {
+	width: 30%;
+	padding: 30px;
+	background-color: black;
+	color: white;
+	margin-top: 80px;
+}
+
+.edit_user {
+	display : flex;
+	justify-content : center;
+	align-items : center;
+}
+
+.btn-primary{
+	background-color : orange;
+	border : none;
+	box-shadow : none;
+}
+
+.btn-primary:hover:active {
+	background-color : black;
+	border-color : black;
+}
+
+.btn-primary:focus {
+	background-color : black;
+	border-color : black;
+}
+
+#fname, #lname, #email, #country, #mobile {
+	color : red;
+	font-weight : bold;
+}
+
+label {
+	font-weight : bold;
+}
+
+.form-control {
+	color : orange;
+}
