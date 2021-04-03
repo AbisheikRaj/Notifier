@@ -1,7 +1,7 @@
 # Notifier
 
 ## Objective :
-This Web Application notifies you what are the events/tasks are available on your schedule. It reminds you on that particular date and time accordingly.
+This Web Application notifies you what are the events/tasks are available on your schedule and It reminds you on that particular date and time accordingly.
 
 ## Software Requirements :
       1) JAVA version 8 and Above.
